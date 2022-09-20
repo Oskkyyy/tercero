@@ -1,0 +1,32 @@
+Historia del lenguaje C
+
+Lo que se
+Lenguaje compilado y fuertemente tipado, que fue desarrollado despues de otros lenguajes A y B.
+La mayoria de los lenguajes de programacion actuales estan basados en C.
+Se usa para el desarrollo de sistemas operativos, el kernel de GNU/Linux esta escrito en lenguaje C.
+Los creadores fueron Dennis Ritchie y Brian Kernighan.
+
+Que
+C es un lenguaje de programación de propósito general que ofrece economía sintáctica, control de flujo, estructuras sencillas y un buen conjunto de operadores. Es un lenguaje de nivel medio y no está especializado en ningún tipo de aplicación. Esto lo hace un lenguaje versátil y potente, con un campo de aplicación ilimitado y, sobre todo, se puede aprender rápidamente. En poco tiempo, un programador puede utilizar la totalidad del lenguaje.
+
+Este lenguaje ha sido estrechamente ligado al sistema operativo UNIX, puesto que fueron desarrollados conjuntamente. Sin embargo, no está ligado a ningún sistema operativo ni a ninguna máquina concreta. Se le suele llamar lenguaje de programación de sistemas debido a su utilidad para escribir compiladores y sistemas operativos, aunque de igual forma se pueden desarrollar cualquier tipo de aplicación. 
+
+Quien
+Dennis Ritchie y Ken Thompson
+
+Como
+C trabaja con tipos de datos que son directamente tratables por el hardware de la mayoría de computadoras actuales, como son los caracteres, números y direcciones. Estos tipos de datos pueden ser manipulados por las operaciones aritméticas que proporcionan las computadoras. No proporciona mecanismos para tratar tipos de datos que no sean los básicos, debiendo ser el programador el que los desarrolle. Esto permite que el código generado sea muy eficiente y de ahí el éxito que ha tenido como lenguaje de desarrollo de sistemas. No proporciona otros mecanismos de almacenamiento de datos que no sea el estático y no proporciona mecanismos de entrada ni salida. Ello permite que el lenguaje sea reducido y los compiladores de fácil implementación en distintos sistemas. Por contra, estas carencias se compensan mediante la inclusión de funciones de librería para realizar todas estas tareas, que normalmente dependen del sistema operativo.
+
+Donde
+El desarrollo inicial de C se llevó a cabo en los Laboratorios Bell de AT&T entre 1969 y 1973; según Dennis Ritchie, el periodo más creativo tuvo lugar en 1972. Se le dio el nombre "C" porque muchas de sus características fueron tomadas de un lenguaje anterior llamado "B".
+
+
+Ejemplo:Hola Mundo
+hola_mundo.c
+#include <stdio.h>  
+int main()
+
+{
+    printf("Hola Mundo");
+    return 0;
+}
