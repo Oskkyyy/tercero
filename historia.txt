@@ -25,7 +25,7 @@ Ejemplo:Hola Mundo
 hola_mundo.c
 #include <stdio.h>  
 int main()
-
+.
 {
     printf("Hola Mundo");
     return 0;
